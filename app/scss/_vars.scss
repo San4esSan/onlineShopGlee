@@ -34,3 +34,15 @@ $title: #191919;
   font-weight: 700;
 }
 
+@function max($numbers...){
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...){
+  @return m#{i}x(#{$numbers});
+}
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}x(#{$numbers});
+}
